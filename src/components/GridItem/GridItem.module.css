@@ -1,0 +1,40 @@
+.main{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.gridTittle{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.gridIcon{
+    width: 70px;
+    height: 70px;
+    border-radius:50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .1);
+}
+.gridIcon img{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+
+.gridInfo{
+    font-size: .9rem;
+    margin-top: 10px;
+}
+
+.imc{
+    margin-top: 10px;
+    font-size: .9rem;
+    font-weight: bold; 
+}
